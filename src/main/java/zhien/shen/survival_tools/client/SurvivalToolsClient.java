@@ -1,4 +1,4 @@
-package zhien.shen.survival_tools;
+package zhien.shen.survival_tools.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

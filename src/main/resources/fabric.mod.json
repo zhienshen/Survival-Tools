@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://zhienshen.github.io/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/zhienshen/survival-tools"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/survival-tools/icon.png",
