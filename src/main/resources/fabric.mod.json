@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "survival-tools",
+	"version": "${version}",
+	"name": "Survival Tools",
+	"description": "这是描述。",
+	"authors": [
+		"zhien_shen"
+	],
+	"contact": {
+		"homepage": "https://zhienshen.github.io/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/survival-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"zhien.shen.survival_tools.SurvivalTools"
+		],
+		"fabric-datagen": [
+			"zhien.shen.survival_tools.SurvivalToolsDataGenerator"
+		],
+		"client": [
+			"zhien.shen.survival_tools.client.SurvivalToolsClient"
+		]
+	},
+	"mixins": [
+		"survival-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
