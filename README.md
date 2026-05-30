@@ -1,4 +1,6 @@
-# Minecraft 实用生存工具模组 \| Utility Tools Mod
+# 前言：一下内容均由中文书写，请自行翻译。
+
+# Minecraft 实用生存工具模组 \| Survival Utility Tools Mod
 
 ## 📖 模组介绍
 
