@@ -1,4 +1,4 @@
-# 前言：一下内容均由中文书写，请自行翻译。
+# Preface: The following content is written in Chinese, please translate it yourself.
 
 # Minecraft 实用生存工具模组 \| Survival Utility Tools Mod
 
