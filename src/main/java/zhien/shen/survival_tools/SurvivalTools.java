@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import zhien.shen.survival_tools.item.ModItemGroups;
+import zhien.shen.survival_tools.item.ModItems;
 
 public class SurvivalTools implements ModInitializer {
 	public static final String MOD_ID = "Survival Tools";
@@ -22,5 +24,10 @@ public class SurvivalTools implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!This mod was made by zhien.shen.");
+
+		//加载物品
+		ModItems.registerModItems();
+		//加载物品栏
+		ModItemGroups.registerModItemGroups();
 	}
 }
